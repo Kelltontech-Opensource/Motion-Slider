@@ -48,13 +48,13 @@
 		</ul>
 	</div>
   
-  Replace your custom slideshow ID and this will be same in jquery function and css. In giving ex. current ID is "slideshow".
+### Replace your custom slideshow ID and this will be same in jquery function and css. In giving ex. current ID is "slideshow".
   
-  jQuery(document).ready(function($) {
-	$('#slideshow').msr({
-		keyboardnav     : true  // Configuration goes here
+	jQuery(document).ready(function($) {
+		$('#slideshow').msr({
+			keyboardnav     : true  // Configuration goes here
+		});
 	});
-  });
   
   * **Style for Slider required**
   
