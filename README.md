@@ -1,6 +1,6 @@
 # motion-slider
 
-# Mobile touch and responsive slider with hardware accelerated transitions
+Mobile touch and responsive slider with hardware accelerated transitions
 
 ## About
 
