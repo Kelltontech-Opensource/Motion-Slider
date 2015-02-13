@@ -1,0 +1,28 @@
+/* Global css */
+* { padding: 0; margin: 0; box-sizing: border-box; }
+a { outline: 0px; }
+body { font-family: Arial, sans-serif; }
+#container { margin: 20px auto; max-width: 800px; }
+#slideshow a { text-decoration: none;  }
+
+/* Slider css */
+#slideshow { background: #000; } 
+#slideshow ul.slider-listing { overflow: hidden; list-style: none; position: relative; }
+#slideshow li { list-style: none; }
+
+.slider-listing li { position: relative; }
+
+/* Nav-controls css */
+#slideshow .msr-controls .msr-prev a, #slideshow .msr-controls .msr-next a { bottom: 60px; }
+#slideshow .msr-prev a, #slideshow .msr-next a { width: 32px; height: 32px; position: absolute; text-indent: -9999px; display: block; background-position: 0 0; cursor: pointer; }
+#slideshow .msr-prev a { left: 10px; background-image: url(../images/pre.png); }
+#slideshow .msr-next a { right: 10px; background-image: url(../images/next.png); }
+
+/* Pagination css */
+#slideshow .mrs-markers { width: 100%; position: absolute; bottom: -32px; }
+#slideshow .mrs-markers.h-centered { text-align: center; }
+#slideshow .mrs-markers li { margin: 0 2px; display: inline-block; }
+#slideshow .mrs-markers li a { width: 10px; height: 10px; text-indent: -9999px; display: block; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; border: #000 solid 1px; background: #909090;}
+#slideshow .mrs-markers li.active-marker a { background: #28b4ea ; }
+
+.msr-caption { padding: 5px 10px; line-height: 18px; position: absolute; left: 0px; width: 100%; bottom: 5px; color: #000;  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);  }

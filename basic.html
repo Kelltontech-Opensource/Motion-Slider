@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Motion Slider animation</title>
+<link rel="stylesheet" href="css/motion-slider.css">
+
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.js">\x3C/script>')</script>
+<script type="text/javascript" src="js/jquery.mobile-events.min.js"></script>
+<script type="text/javascript" src="js/motion-slider-min-1.0.0.js"></script>
+
+</head>
+
+<body>
+
+	<div id="container">
+    
+        <div id="slideshow">
+        
+            <ul class="slider-listing">
+                <li><img src="images/image1.jpg" alt="" title="Nature always wears the colors of the spirit." /></li>
+                <li><img src="images/image2.jpg" alt="" title="Wherever you go, no matter what the weather, always bring your own sunshine." /></li>
+                <li><img src="images/image3.jpg" alt="" title="Every flower is a soul blossoming in nature." /></li>
+                <li><img src="images/image4.jpg" alt="" title="If one way be better than another, that you may be sure is nature's way." /></li>
+                <li><img src="images/image5.jpg" alt="" title="The best thing one can do when it's raining is to let it rain." /></li>
+                <li><img src="images/image7.jpg" alt="" title="The sea, once it casts its spell, holds one in its net of wonder." /></li>
+                <li><img src="images/image8.jpg" alt="" title="In the depth of winter I finally learned that there was in me an invincible summer." /></li>
+                <li><img src="images/image9.jpg" alt="" title="If I had to choose a religion, the sun as the universal giver of life would be my god" /></li>
+            </ul>
+            <!--/slideshowWindow--> 	
+            
+        </div>
+        <!--/slideshow-->
+    
+    </div>
+    
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$('#slideshow').msr({
+				usecaptions: true
+			});
+		});
+    </script>
+
+</body>
+</html>
