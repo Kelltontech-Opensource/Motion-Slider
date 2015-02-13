@@ -56,9 +56,9 @@
 		});
 	});
   
-  * **Style for Slider required**
+### Style for Slider required
   
-  #slideshow ul.slider-listing { overflow: hidden; list-style: none; position: relative; }
+	#slideshow ul.slider-listing { overflow: hidden; list-style: none; position: relative; }
   
   * **Configuration Setting**
 
