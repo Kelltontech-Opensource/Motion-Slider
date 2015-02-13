@@ -60,22 +60,22 @@
   
   * **Configuration Setting**
 
-	* ** width           : 800,      // Integer: initial width of slider
-	* ** height          : 300,      // Integer: initial height of slider
-	* ** animtype        : 'slide',  // String: Select your animation type, "fade" or "slide"
-	* ** animduration    : 450,      // Integer: Set the speed of animations, in milliseconds
-	* ** animspeed       : 4000,     // Integer: Set the speed of the slideshow cycling, in milliseconds
-	* ** automatic       : true,     // Boolean: enable/disable automatic slide rotation
-	* ** showcontrols    : true,     // Boolean: enable/disable next + previous UI elements
-	* ** centercontrols  : true,     // Boolean: vertically center controls
-	* ** nexttext        : 'Next',   // String: Set the text for the "previous" directionNav item
-	* ** prevtext        : 'Prev',   // String: Set the text for the "next" directionNav item
-	* ** showmarkers     : true,     // Boolean: enable/disable individual slide UI markers
-	centermarkers   : true,     // Boolean: horizontally center markers
-	keyboardnav     : true,     // Boolean: Allow slider navigating via keyboard left/right keys
-	hoverpause      : true,     // Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
-	touch           : true,     // Boolean: touch event for mobile
-	usecaptions     : true,     // Boolean: enable/disable captions using img title attribute
-	randomstart     : false,    // Boolean: start from a random slide
-	responsive      : true,     // Boolean: enable responsive behaviour
-	backwardSlide   : false     // Boolean: enable to reverse slider
+	* width           : 800,      // Integer: initial width of slider
+	* height          : 300,      // Integer: initial height of slider
+	* animtype        : 'slide',  // String: Select your animation type, "fade" or "slide"
+	* animduration    : 450,      // Integer: Set the speed of animations, in milliseconds
+	* animspeed       : 4000,     // Integer: Set the speed of the slideshow cycling, in milliseconds
+	* automatic       : true,     // Boolean: enable/disable automatic slide rotation
+	* showcontrols    : true,     // Boolean: enable/disable next + previous UI elements
+	* centercontrols  : true,     // Boolean: vertically center controls
+	* nexttext        : 'Next',   // String: Set the text for the "previous" directionNav item
+	* prevtext        : 'Prev',   // String: Set the text for the "next" directionNav item
+	* showmarkers     : true,     // Boolean: enable/disable individual slide UI markers
+	* centermarkers   : true,     // Boolean: horizontally center markers
+	* keyboardnav     : true,     // Boolean: Allow slider navigating via keyboard left/right keys
+	* hoverpause      : true,     // Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
+	* touch           : true,     // Boolean: touch event for mobile
+	* usecaptions     : true,     // Boolean: enable/disable captions using img title attribute
+	* randomstart     : false,    // Boolean: start from a random slide
+	* responsive      : true,     // Boolean: enable responsive behaviour
+	* backwardSlide   : false     // Boolean: enable to reverse slider
