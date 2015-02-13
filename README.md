@@ -1,4 +1,4 @@
-# motion-slider
+# Motion Slider
 
 Mobile touch and responsive slider with hardware accelerated transitions
 
