@@ -32,19 +32,21 @@
   
 ## How to Use 
 
-* **Include required files** 
+### Include required files
+
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/jquery.js">\x3C/script>')</script>
 	<script type="text/javascript" src="js/jquery.mobile-events.min.js"></script>
 	<script type="text/javascript" src="js/motion-slider-min-1.0.0.js"></script>
+	
+### HTML markup
   
-  ### HTML markup**
-  <div id="slideshow">
-    <ul class="slider-listing">
-        <li>...</li>
-        <li>...</li>
-    </ul>
-  </div>
+	<div id="slideshow">
+		<ul class="slider-listing">
+			<li>...</li>
+			<li>...</li>
+		</ul>
+	</div>
   
   Replace your custom slideshow ID and this will be same in jquery function and css. In giving ex. current ID is "slideshow".
   
