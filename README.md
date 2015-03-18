@@ -1,6 +1,6 @@
-# motion-slider
+# Motion Slider
 
-# Mobile touch and responsive slider with hardware accelerated transitions
+Mobile touch and responsive slider with hardware accelerated transitions
 
 ## About
 
@@ -32,50 +32,52 @@
   
 ## How to Use 
 
-  * **Include required files** 
-  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/jquery.js">\x3C/script>')</script>
-  <script type="text/javascript" src="js/jquery.mobile-events.min.js"></script>
-  <script type="text/javascript" src="js/motion-slider-min-1.0.0.js"></script>
+### Include required files
+
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.js">\x3C/script>')</script>
+	<script type="text/javascript" src="js/jquery.mobile-events.min.js"></script>
+	<script type="text/javascript" src="js/motion-slider-min-1.0.0.js"></script>
+	
+### HTML markup
   
-  * **HTML markup**
-  <div id="slideshow">
-    <ul class="slider-listing">
-        <li>...</li>
-        <li>...</li>
-    </ul>
-  </div>
+	<div id="slideshow">
+		<ul class="slider-listing">
+			<li>...</li>
+			<li>...</li>
+		</ul>
+	</div>
   
-  Replace your custom slideshow ID and this will be same in jquery function and css. In giving ex. current ID is "slideshow".
+### Replace your custom slideshow ID and this will be same in jquery function and css. In giving ex. current ID is "slideshow".
   
-  jQuery(document).ready(function($) {
-	$('#slideshow').msr({
-		keyboardnav     : true  // Configuration goes here
+	jQuery(document).ready(function($) {
+		$('#slideshow').msr({
+			keyboardnav     : true  // Configuration goes here
+		});
 	});
-  });
   
-  * **Style for Slider required**
+### Style for Slider required
   
-  #slideshow ul.slider-listing { overflow: hidden; list-style: none; position: relative; }
+	#slideshow ul.slider-listing { overflow: hidden; list-style: none; position: relative; }
   
   * **Configuration Setting**
 
-	width           : 800,      // Integer: initial width of slider
-	height          : 300,      // Integer: initial height of slider
-	animtype        : 'slide',  // String: Select your animation type, "fade" or "slide"
-	animduration    : 450,      // Integer: Set the speed of animations, in milliseconds
-	animspeed       : 4000,     // Integer: Set the speed of the slideshow cycling, in milliseconds
-	automatic       : true,     // Boolean: enable/disable automatic slide rotation
-	showcontrols    : true,     // Boolean: enable/disable next + previous UI elements
-	centercontrols  : true,     // Boolean: vertically center controls
-	nexttext        : 'Next',   // String: Set the text for the "previous" directionNav item
-	prevtext        : 'Prev',   // String: Set the text for the "next" directionNav item
-	showmarkers     : true,     // Boolean: enable/disable individual slide UI markers
-	centermarkers   : true,     // Boolean: horizontally center markers
-	keyboardnav     : true,     // Boolean: Allow slider navigating via keyboard left/right keys
-	hoverpause      : true,     // Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
-	touch           : true,     // Boolean: touch event for mobile
-	usecaptions     : true,     // Boolean: enable/disable captions using img title attribute
-	randomstart     : false,    // Boolean: start from a random slide
-	responsive      : true,     // Boolean: enable responsive behaviour
-	backwardSlide   : false     // Boolean: enable to reverse slider
+	* width           : 800,      // Integer: initial width of slider
+	* height          : 300,      // Integer: initial height of slider
+	* animtype        : 'slide',  // String: Select your animation type, "fade" or "slide"
+	* animduration    : 450,      // Integer: Set the speed of animations, in milliseconds
+	* animspeed       : 4000,     // Integer: Set the speed of the slideshow cycling, in milliseconds
+	* automatic       : true,     // Boolean: enable/disable automatic slide rotation
+	* showcontrols    : true,     // Boolean: enable/disable next + previous UI elements
+	* centercontrols  : true,     // Boolean: vertically center controls
+	* nexttext        : 'Next',   // String: Set the text for the "previous" directionNav item
+	* prevtext        : 'Prev',   // String: Set the text for the "next" directionNav item
+	* showmarkers     : true,     // Boolean: enable/disable individual slide UI markers
+	* centermarkers   : true,     // Boolean: horizontally center markers
+	* keyboardnav     : true,     // Boolean: Allow slider navigating via keyboard left/right keys
+	* hoverpause      : true,     // Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
+	* touch           : true,     // Boolean: touch event for mobile
+	* usecaptions     : true,     // Boolean: enable/disable captions using img title attribute
+	* randomstart     : false,    // Boolean: start from a random slide
+	* responsive      : true,     // Boolean: enable responsive behaviour
+	* backwardSlide   : false     // Boolean: enable to reverse slider
